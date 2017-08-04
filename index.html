@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>NewYorkTimesApp</title>
+</head>
+<body>
+    <style type="text/css">
+        .jumbotron {
+            padding-top: 30px;
+            margin-top: 0%;
+            margin-left: 25px;
+           /* background-color:#0066cc;*/
+            background-image: url(assets/images/The_New_York_Times_logo.png);
+            /*background-size: cover;*/
+            height: 200px;
+            background-repeat: no-repeat;
+            /*color: white;*/
+            /*font-family: 'Lucida Console'*/;
+            /*text-align: center;*/
+        }
+    </style>
+
+
+<div class="container">
+    <div class="jumbotron">
+        <!-- <h1><span class="glyphicon glyphicon-book"></span> New York Times Search</h1> -->
+    </div>
+
+    <br>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title"><span class="glyphicon glyphicon-list-alt"></span> Search Parameters</h3>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="search">Search Term:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="sel1">Select list:</label>
+                <select class="form-control" id="sel1">
+                    <option>1</option>
+                    <option>5</option>
+                    <option>10</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="search">Start Year (Optional):</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="search">End Year (Optional):</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Search</button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash"></span> Clear Result</button>
+            </div>  
+        </div>                    
+    </div>
+
+        <br>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title"><span class="glyphicon glyphicon-th"></span> Top Articles</h3>
+    </div>
+    <div class="panel-body">
+                
+    </div>
+</div>
+
+</body>
+<script src = "assets/javascript/app.js"></script>
+</html>
